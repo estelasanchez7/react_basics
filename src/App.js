@@ -5,6 +5,7 @@ import Propiedades from './components/Propiedades';
 import React from 'react'; //no es necesario aquí, pero en versiones anteriores í, así que por si acaso trabajamos en otros proyectos anteriores a esta versión es conveniente ponerlo.
 import Estado from './components/Estado';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
+import RenderizadoElementos from './components/RenderizadoElementos';
 
 function App() {
   return (
@@ -41,6 +42,8 @@ function App() {
           <Estado />
           <hr/>
           <RenderizadoCondicional/>
+          <hr/>
+          <RenderizadoElementos/>
         </section>
       </header>
     </div>
