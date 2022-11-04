@@ -3,6 +3,7 @@ import './App.css';
 import Componente from './components/Componente'
 import Propiedades from './components/Propiedades';
 import React from 'react'; //no es necesario aquí, pero en versiones anteriores í, así que por si acaso trabajamos en otros proyectos anteriores a esta versión es conveniente ponerlo.
+import Estado from './components/Estado';
 
 function App() {
   return (
@@ -36,14 +37,8 @@ function App() {
         elementoReact={<i>Esto es un elemento React</i>}
         elementoComponenteReact={<Componente msg='soy un componente pasado como prop'/>}
         />
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+<hr/>
+<Estado/>
       </section>
     </div>
   );
