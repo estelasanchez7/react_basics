@@ -18,7 +18,7 @@ export default function ScrollHooks() {
     
   },[scrollY]); //solo se va a ejecutar cuando la variable scrollY tenga cambios
 
-
+/*
   useEffect(() => {
     console.log("Fase de Montaje")
   },[]);
@@ -31,7 +31,7 @@ export default function ScrollHooks() {
     return()=> {
         console.log("Fase de Desmontaje")
     }
-  });
+  });*/
 
 
 
