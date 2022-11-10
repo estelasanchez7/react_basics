@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 export default function ScrollHooks() {
     const [scrollY, setScrollY] = useState(0)
    
-
+/*
   useEffect(() => {
     console.log("Haciendo Scroll");
 
@@ -17,7 +17,7 @@ export default function ScrollHooks() {
     }
     
   },[scrollY]); //solo se va a ejecutar cuando la variable scrollY tenga cambios
-
+*/
 /*
   useEffect(() => {
     console.log("Fase de Montaje")
